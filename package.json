@@ -1,0 +1,27 @@
+{
+  "name": "first-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "first-cli": "bin/commit.js",
+    "first-cli-push": "bin/push.js",
+    "first-cli-deploy": "bin/deploy.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogbpl/first-cli.git"
+  },
+  "author": "Yogesh Pandey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yogbpl/first-cli/issues"
+  },
+  "homepage": "https://github.com/yogbpl/first-cli#readme",
+  "dependencies": {
+    "shelljs": "^0.8.4"
+  }
+}
